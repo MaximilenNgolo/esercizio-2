@@ -1,0 +1,93 @@
+.alex{
+    height: 100px;
+    width: 100px;
+}
+
+.baby{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+.liste{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./ciel.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 55px;
+
+
+}
+
+img{
+    width: 300px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+   
+}
+
+article{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.madame:hover{
+    border-bottom: 1px solid yellowgreen;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(159, 40, 229);
+    color: white;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.mp{
+    height: 50px;
+    width: 50px;
+}
